@@ -1,0 +1,61 @@
+/* 导航 */
+.navigation {
+    height: 90px;
+    background-color: #121724;
+}
+
+.navigation-left-logo img {
+    float: left;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+/* .navigation-left-inter {
+    float: left;
+} */
+
+.navigation-left-inter li {
+    display: inline-block;
+    /* color: blue; */
+    font-size: 16px;
+    /* margin-left: 220px; */
+    padding-top: 28px;
+    text-align: center;
+    width: 170px;
+}
+
+.navigation-left-inter li a {
+    float: right;
+    color: #ffffff;
+
+}
+
+.navigation-left-inter li a span {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    color: #9d9d9d;
+}
+
+.navigation-bottom-menu {
+    height: 168px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 23px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.navigation-bottom-menu ul {
+    display: inline-block;
+    text-align: center;
+    margin-left: 97px;
+}
+
+.navigation-bottom-menu ul li {
+    margin-top: 10px;
+}
+
+.navigation-bottom-menu ul li a {
+    color: #ffffff;
+    font-size: 12px;
+}

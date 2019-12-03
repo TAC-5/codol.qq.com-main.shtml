@@ -30,6 +30,10 @@
 
 }
 
+.navigation-left-inter li a i:hover {
+    color: #109ddf;
+}
+
 .navigation-left-inter li a span {
     font-size: 12px;
     display: block;
@@ -58,4 +62,160 @@
 .navigation-bottom-menu ul li a {
     color: #ffffff;
     font-size: 12px;
+}
+
+.navigation-bottom-menu ul li a:hover {
+    color: #109ddf;
+}
+
+.sift-activity {
+    width: 1903px;
+    height: 630px;
+    color: blue;
+}
+
+.sift-activity a img {
+    width: 1903px;
+    height: 630px;
+}
+
+.sift-left-recharge {
+    width: 810px;
+    height: 130px;
+    background-color: black;
+    margin-left: 330px;
+}
+
+.sift-left-recharge ul li {
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.sift-left-recharge ul li i {
+    font-size: 16px;
+    color: #ffffff
+}
+
+.sift-left-recharge ul li span {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.sift-left-recharge ul li i:hover,
+.sift-left-recharge ul li span:hover {
+    color: #109ddf;
+}
+
+.sift-left-recharge ul li a img {
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+
+.whole-left {
+    float: left;
+    margin-left: 330px;
+
+}
+
+.whole-left-top-rotation span {
+    width: 810px;
+    height: 340px;
+}
+
+.whole-left-top-rotation ul {
+    width: 810px;
+    height: 35px;
+    background-color: #1f2430;
+    margin-top: -3px;
+}
+
+.whole-left-top-rotation ul li {
+    display: table-cell;
+    width: 101.25px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.whole-left-top-rotation ul :hover {
+    color: #109ddf;
+}
+
+.whole-left-recommend {
+    width: 810px;
+    height: 290px;
+}
+
+.whole-left-recommend span {
+    display: inline-flex;
+    width: 810px;
+    height: 40px;
+}
+
+.whole-left-recommend span h2 {
+    font-size: 20px;
+    float: left;
+    width: 810px;
+    height: 40px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.whole-left-recommend span a {
+    width: 37px;
+    height: 40px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 11px;
+}
+
+.whole-left-recommend span a i {
+    font-size: 12px;
+    color: #686868;
+}
+
+.whole-left-recommend a i:hover {
+    color: #109ddf;
+}
+
+.whole-left-recommend-picture {
+    padding-top: 5px;
+}
+
+.whole-left-recommend-picture ul li {
+    display: inline
+}
+
+.whole-left-recommend-picture ul li img {
+    width: 195px;
+    height: 140px;
+    margin-left: 4.9px;
+
+}
+
+.whole-left-video {
+    width: 810px;
+    height: 40px;
+}
+
+.whole-left-video span {
+    float: left;
+    font-size: 20px;
+}
+
+.whole-left-video span,
+.whole-left-video ul li {
+    display: inline;
+}
+
+.whole-left-video ul {
+    float: right;
+}
+
+.whole-left-video ul li a {
+    font-size: 12px;
+    margin-right: 5px;
 }

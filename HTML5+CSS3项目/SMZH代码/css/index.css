@@ -130,6 +130,7 @@
     height: 35px;
     background-color: #1f2430;
     margin-top: -3px;
+    display: flex;
 }
 
 .whole-left-top-rotation ul li a {
@@ -312,4 +313,80 @@ input[name="img"] {
     font-size: 12px;
     margin-right: 5px;
     padding-left: 45px;
+}
+
+/* 视频 */
+/* .whole-left-video-cotton {
+
+} */
+
+.whole-left-video-cotton ul {
+    margin-left: -45px;
+    display: flex;
+}
+
+.whole-left-video-cotton ul li a img {
+    width: 260px;
+    height: 145px;
+}
+
+.whole-left-video-cotton ul li a span img {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    /* padding-left: 147px;
+    padding-top: 51px; */
+    /* left: 50%; */
+    top: 50%;
+    margin-left: 153px;
+    margin-top: 1130px;
+    /* z-index: 1; */
+}
+
+.whole-left-video-cotton ul li a span p {
+    font-size: 12px;
+}
+
+/* 活动中心 */
+
+.whole-left-activity {
+    width: 810px;
+    height: 40px;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.whole-left-activity span {
+    float: left;
+    font-size: 20px;
+}
+
+.whole-left-activity ul {
+    float: left;
+    padding-top: 5px;
+    width: 899px;
+    height: 199px;
+}
+
+.whole-left-activity span,
+.whole-left-activity ul li {
+    display: inline;
+}
+
+.whole-left-activity ul li a {
+    font-size: 12px;
+    margin-right: 5px;
+    padding-left: 45px;
+}
+
+.whole-left-activity ul li a:hover {
+    color: #109ddf;
+}
+
+.whole-left-activity-wenzi ul li a:hover {
+    color: #109ddf;
+}
+
+.whole-left-activity-wenzi ul li a span {
+    font-size: 12px;
+    scroll-padding-left: 20px;
 }

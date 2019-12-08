@@ -79,13 +79,14 @@
     height: 1679px;
     margin-top: 17px;
     margin-left: 340px;
+    display: inline-block;
 }
 
 /* 轮播图 */
 .rot {
     width: 810px;
     height: 340px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .rot ul li {
@@ -241,4 +242,390 @@
 .video-bottom ul li a img {
     width: 260px;
     height: 145px;
+}
+
+/* 活动中心 */
+.activity-top {
+    width: 810px;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 1px solid #e0e0e0;
+    /* border: 1px solid black; */
+}
+
+.activity-top span {
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    width: 810px;
+    height: 40px;
+}
+
+.activity-top i {
+    font-size: 12px;
+    float: right;
+    line-height: 40px;
+    /* padding-left: 0px; */
+    /* left: 6px; */
+    overflow: hidden;
+    position: absolute;
+    right: 755px;
+}
+
+.activity-top ul {
+    display: flex;
+    line-height: 40px;
+    position: absolute;
+    padding-left: 90px;
+}
+
+.activity-top ul li {
+    padding: 0 28px;
+    /* width: 87.3px; */
+    height: 40px;
+    float: left;
+}
+
+.activity-top ul li a {
+    font-size: 14px;
+}
+
+.activity-top ul li a:hover {
+    color: #109ddf;
+}
+
+.activity-top ul li:hover {
+    border-bottom: 2px solid #135da2;
+}
+
+.activity-top i a:hover {
+    color: #109ddf;
+}
+
+.activity-bottom ul {
+    width: 808px;
+    height: 162px;
+    line-height: 41px;
+    /* border: 1px solid black; */
+}
+
+.activity-bottom ul li {
+    display: inline-block;
+    width: 366px;
+    height: 39px;
+    line-height: 38px;
+    /* margin-right: 34.4px; */
+    padding-right: 36px;
+    float: left;
+    /* border: 1px solid green; */
+}
+
+.activity-bottom ul li img,
+.activity-bottom ul li a p,
+.activity-bottom ul li a span {
+    display: inline-block;
+}
+
+.activity-bottom ul li a span {
+    float: right;
+    font-size: 12px;
+    background-color: black;
+    color: #ffffff;
+    /* border: 1px solid black; */
+}
+
+.activity-bottom ul li a p {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.activity-bottom ul li img {
+    float: left;
+    /* line-height: 40px; */
+    padding-top: 12px;
+}
+
+.activity-bottom ul li a:hover {
+    color: #109ddf;
+}
+
+.activity-bottom ul li a span:hover {
+    color: #ffffff;
+}
+
+/* 赛事专区 */
+
+.player {
+    width: 810px;
+    height: 380px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.player-top {
+    width: 810px;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 1px solid #e0e0e0;
+    /* border: 1px solid black; */
+}
+
+.player-top span {
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    width: 810px;
+    height: 40px;
+}
+
+.player-top i {
+    font-size: 12px;
+    float: right;
+    line-height: 40px;
+    /* padding-left: 0px; */
+    /* left: 6px; */
+    overflow: hidden;
+    position: absolute;
+    right: 755px;
+}
+
+.player-top ul {
+    display: flex;
+    line-height: 40px;
+    position: absolute;
+    padding-left: 90px;
+}
+
+.player-top ul li {
+    padding: 0 28px;
+    /* width: 87.3px; */
+    height: 40px;
+    float: left;
+}
+
+.player-top ul li a {
+    font-size: 14px;
+}
+
+.player-top ul li a:hover {
+    color: #109ddf;
+}
+
+.player-top ul li:hover {
+    border-bottom: 2px solid #135da2;
+}
+
+.player-top i a:hover {
+    color: #109ddf;
+}
+
+.player-bottom-left a {
+    float: left;
+    padding-top: 20px;
+}
+
+.player-bottom-left a img {
+    width: 260px;
+    height: 320px;
+}
+
+.player-bottom-right {
+    float: right;
+}
+
+.player-bottom-right dl dt {
+    width: 470px;
+    height: 108px;
+    /* float: right; */
+    /* border: 1px solid green; */
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.player-bottom-right dl dt h3 {
+    font-size: 30px;
+    padding-top: 12px;
+    width: 330px;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.player-bottom-right dl dt a {
+    width: 140px;
+    height: 40px;
+    background-color: #fd6d2e;
+    float: right;
+    margin-top: -25px;
+}
+
+.player-bottom-right dl dt a span {
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 28px;
+    font-size: 14px;
+}
+
+.player-bottom-right dl dd {
+    /* width: 810px; */
+    /* padding-top: 10px; */
+    line-height: 40px;
+    /* height: 38px; */
+}
+
+.player-bottom-right dl dd span {
+    float: right;
+    right: 0;
+}
+
+.player-bottom-right dl dd a:hover {
+    color: #109ddf;
+}
+
+/* 主题页面右面部分 */
+.motif-right {
+    width: 410px;
+    height: 1681px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 17px;
+    margin-right: 341px;
+}
+
+/* 综合 */
+.player {
+    width: 810px;
+    height: 380px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.synth-top {
+    width: 410px;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 1px solid #e0e0e0;
+    /* border: 1px solid black;*/
+}
+
+.synth-top ul {
+    display: flex;
+    line-height: 40px;
+    position: absolute;
+    /* padding-left: 90px;*/
+}
+
+.synth-top ul li {
+    padding: 0 20px;
+    /* width: 87.3px; */
+    height: 40px;
+    float: left;
+}
+
+.synth-top ul li a {
+    font-size: 14px;
+}
+
+.synth-top ul li a:hover {
+    color: #109ddf;
+}
+
+.synth-top ul li:hover {
+    border-bottom: 3px solid #135da2;
+}
+
+.synth-top i a:hover {
+    color: #109ddf;
+}
+
+.synth-bottom {
+    width: 410px;
+    height: 295px;
+    /* border: 1px solid black; */
+}
+
+.synth-bottom ul li {
+    display: inline-block;
+    width: 340px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.orange {
+    color: #fd6d2e;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+.synth-bottom ul li i {
+    float: right;
+    right: 0;
+}
+
+.look span {
+    color: #fd6d2e;
+    font-size: 12px;
+    padding-left: 180px;
+}
+
+.look {
+    line-height: 38px;
+    width: 410px;
+    height: 38px;
+    background-color: #d8d8d8;
+    display: block;
+    margin-top: 29px;
+}
+
+/* 社区热点 */
+.comm {
+    width: 410px;
+    height: 365px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* line-height: 40px; */
+}
+
+.comm-top span {
+    width: 410px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    line-height: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comm-top a i {
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.comm-top a i:hover {
+    color: #109ddf;
+}
+
+.comm-bottom ul {
+    margin-top: 15px;
+}
+
+.comm-bottom ul li {
+    height: 34px;
+}
+
+/* 快速入口 */
+.entrance {
+    width: 410px;
+    height: 281px;
+    border: 1px solid black;
+    margin-top: 20px;
+    /* line-height: 40px; */
+}
+
+.entrance-top span {
+    width: 410px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    line-height: 40px;
+    border-bottom: 1px solid #e0e0e0;
 }

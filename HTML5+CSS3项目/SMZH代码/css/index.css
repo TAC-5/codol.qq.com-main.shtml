@@ -1,3 +1,7 @@
+.body {
+    background-color: #e0e0e0;
+}
+
 /* 顶部标题导航 */
 .nav {
     width: 1903px;
@@ -485,7 +489,7 @@
 .motif-right {
     width: 410px;
     height: 1681px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: right;
     margin-top: 17px;
     margin-right: 341px;
@@ -616,8 +620,10 @@
 .entrance {
     width: 410px;
     height: 281px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* background-color: #d8d8d8; */
     margin-top: 20px;
+    overflow: hidden;
     /* line-height: 40px; */
 }
 
@@ -628,4 +634,139 @@
     display: flex;
     line-height: 40px;
     border-bottom: 1px solid #e0e0e0;
+}
+
+.entrance-bottom {
+    width: 434.59px;
+    height: 240px;
+    /* display: inline-block; */
+}
+
+.entrance-bottom ul li {
+    width: 98px;
+    height: 70px;
+    display: inline-block;
+    margin-top: 10px;
+    /* border: 1px solid #ffffff; */
+    background-color: #ffffff;
+}
+
+.entrance-bottom ul li span {
+    margin-left: 22px;
+    /* line-height: 70px; */
+    text-align: center;
+}
+
+/* CODOL官方APP */
+.app {
+    width: 410px;
+    height: 281px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* line-height: 40px; */
+}
+
+.app-top span {
+    width: 410px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.app-bottom img {
+    margin-top: 6px;
+    width: 410px;
+    height: 235px;
+}
+
+/* 品牌活动 */
+.brand {
+    width: 410px;
+    height: 190px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* line-height: 40px; */
+}
+
+.brand-top span {
+    width: 410px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    line-height: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.brand-top a i {
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.brand-top a i:hover {
+    color: #109ddf;
+}
+
+.brand-bottom a img {
+    width: 410px;
+    height: 120px;
+    padding-top: 10px;
+}
+
+/* 主题页面下面部分 */
+.motif-bottom {
+    width: 1903px;
+    height: 526px;
+    border: 1px solid black;
+}
+
+
+
+.motif-bottom-top {
+    width: 1240px;
+    height: 306px;
+    display: flex;
+    margin-left: 335px;
+    border: 1px solid greenyellow;
+}
+
+.motif-bottom-top-weixin {
+    width: 335px;
+    height: 89px;
+    margin-top: 52px;
+    border: 1px solid red;
+}
+
+.motif-bottom-top-weixin img {
+    width: 90px;
+    height: 89px;
+    display: inline-block;
+}
+
+.motif-bottom-top-game {
+    width: 395px;
+    height: 95px;
+    margin-top: 52px;
+    border: 1px solid yellow;
+}
+
+.motif-bottom-top-media {
+    width: 216px;
+    height: 119px;
+    margin-top: 52px;
+    border: 1px solid blue;
+}
+
+.motif-bottom-top-friend {
+    width: 260px;
+    height: 124px;
+    margin-top: 52px;
+    border: 1px solid purple;
+}
+
+.motif-bottom-bottom {
+    width: 1903px;
+    height: 220px;
+    background-color: #000000;
 }

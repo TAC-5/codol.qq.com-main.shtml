@@ -492,7 +492,7 @@
     /* border: 1px solid black; */
     float: right;
     margin-top: 17px;
-    margin-right: 341px;
+    margin-right: 190px;
 }
 
 /* 综合 */
@@ -718,7 +718,7 @@
 .motif-bottom {
     width: 1903px;
     height: 526px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -728,14 +728,14 @@
     height: 306px;
     display: flex;
     margin-left: 335px;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 .motif-bottom-top-weixin {
     width: 335px;
     height: 89px;
     margin-top: 52px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .motif-bottom-top-weixin img {
@@ -745,24 +745,28 @@
 }
 
 .motif-bottom-top-game {
-    width: 395px;
-    height: 95px;
+    width: 330px;
+    height: 85px;
     margin-top: 52px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+}
+
+.motif-bottom-top-game a:hover {
+    color: #109ddf;
 }
 
 .motif-bottom-top-media {
     width: 216px;
     height: 119px;
     margin-top: 52px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .motif-bottom-top-friend {
     width: 260px;
     height: 124px;
     margin-top: 52px;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .motif-bottom-bottom {

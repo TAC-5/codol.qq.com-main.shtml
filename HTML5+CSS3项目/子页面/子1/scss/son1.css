@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+  background-color: #999999;
+}
+
+.nav-top {
+  position: relative;
+  width: 970px;
+  height: 60px;
+  top: 0;
+  /* text-align: center; */
+  background-color: purple;
+}
+
+.nav-top img {
+  float: left;
+  left: 0;
+  margin-top: 20px;
+}
+
+.nav-top .sousuo {
+  position: absolute;
+}
+
+.nav-top .sousuo input {
+  width: 340px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  border: 1px solid #999999;
+}
+
+.nav-top .sousuo .go {
+  position: absolute;
+  background-color: blue;
+  width: 64px;
+  height: 30px;
+  background-image: url(../upload/下载.png);
+}
+/*# sourceMappingURL=son1.css.map */

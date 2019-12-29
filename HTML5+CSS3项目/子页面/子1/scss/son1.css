@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #999999;
 }
@@ -18,10 +17,6 @@ body {
   margin-top: 20px;
 }
 
-.nav-top .sousuo {
-  position: absolute;
-}
-
 .nav-top .sousuo input {
   width: 340px;
   height: 30px;
@@ -32,10 +27,18 @@ body {
 }
 
 .nav-top .sousuo .go {
-  position: absolute;
-  background-color: blue;
+  position: relative;
+  background-color: #2786e4;
+  top: 20px;
+  background-repeat: no-repeat;
+  right: -93px;
   width: 64px;
   height: 30px;
-  background-image: url(../upload/下载.png);
+}
+
+.nav-top .sousuo .go img {
+  position: absolute;
+  top: -10px;
+  left: 25px;
 }
 /*# sourceMappingURL=son1.css.map */

@@ -17,7 +17,6 @@ body {
     }
 
     .sousuo {
-        position: absolute;
 
         input {
             width: 340px;
@@ -29,11 +28,19 @@ body {
         }
     
         .go {
-            position: absolute;
-            background-color: blue;
+            position: relative;
+            background-color: #2786e4;
+            top: 20px;
+            background-repeat: no-repeat;
+            right: -93px;
             width: 64px;
             height: 30px;
-            background-image: url(../upload/下载.png);
+
+            img {
+                position: absolute;
+                top: -10px;
+                left: 25px;
+            }
         }
     }
 }

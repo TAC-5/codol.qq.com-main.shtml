@@ -1,0 +1,448 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 14px/1.6 "Microsoft Yahei", "simsun";
+  color: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.wap a:link,
+.wap a:visited {
+  text-decoration: none;
+  color: #e33e04;
+}
+
+.wap a:hover,
+.wap a:active {
+  text-decoration: none;
+  color: #ff4200;
+}
+
+.top-nav a:link,
+.top-nav a:visited {
+  color: #fff;
+}
+
+.top-nav a:hover,
+.top-nav a:active {
+  color: #95ca07;
+}
+
+.none {
+  display: none;
+}
+
+.dis-il {
+  display: inline-block;
+}
+
+.p-a {
+  position: absolute;
+}
+
+.p-r {
+  position: relative;
+}
+
+.sprite-common {
+  background-image: url(../upload/sprites_common_white_1.png);
+  background-repeat: no-repeat;
+}
+
+body {
+  padding-top: 42px;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+  background: #000;
+  min-width: 1200px;
+}
+
+.wap {
+  width: 100%;
+  min-width: 1200px;
+}
+
+/* LOGO+头部按钮 */
+.top-bar {
+  width: 970px;
+  padding-right: 30px;
+  margin: 0 auto;
+  text-align: right;
+  height: 38px;
+  position: relative;
+  z-index: 100;
+  background-position: 380px 0;
+}
+
+.top-bar a {
+  width: 150px;
+  height: 35px;
+  text-indent: 58px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.top-bar a.wb {
+  width: 137px;
+}
+
+.top-bar .logo {
+  width: 157px;
+  height: 71px;
+  background-position: 0 -38px;
+  left: 6px;
+  top: 10px;
+  z-index: 200;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar a:link,
+.top-bar a:visited {
+  color: #fff;
+}
+
+.top-bar a:hover,
+.top-bar a:active {
+  color: #109ddf;
+}
+
+.atten {
+  width: 100%;
+  min-width: 1000px;
+  height: 450px;
+  background: url(../upload/atten-bg.png) center top no-repeat;
+  margin-top: -13px;
+}
+
+.atten .clearfix {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.code-area {
+  width: 295px;
+  position: absolute;
+  top: 65px;
+  right: 100px;
+}
+
+.code-area p {
+  font-size: 25px;
+  color: #d1d3e1;
+  text-align: center;
+  letter-spacing: 6px;
+  margin-top: 8px;
+}
+
+/* foot */
+#afooter {
+  min-width: 1200px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 19px;
+  color: #999;
+  padding: 20px 0;
+}
+
+#afooter a {
+  color: #999;
+  text-decoration: none;
+}
+
+#wrap_ieg {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 1000px;
+}
+
+#afooter p.e {
+  margin-top: -4px;
+  font-size: 10px;
+}
+
+/*page*/
+.ost_box {
+  min-width: 1200px !important;
+}
+
+.page {
+  min-width: 1200px;
+  margin-top: -39px;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mid {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.t {
+  display: block;
+  text-indent: -9999px;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.spr {
+  background: url(../upload/spr.png) no-repeat;
+}
+
+a.spr {
+  transition: all .3s !important;
+  -webkit-transition: all .3s !important;
+  text-decoration: none;
+  display: block;
+}
+
+a.spr:hover {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+  filter: alpha(opacity=90) \0;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+}
+
+.top-wrap {
+  background: url(../img/top1.jpg) no-repeat center top;
+}
+
+.top-con {
+  background: url(../img/top2.jpg) no-repeat center top;
+  height: 920px;
+}
+
+.bg1 {
+  background: url(../img/bg1.jpg) no-repeat center top;
+  height: 980px;
+}
+
+.bg2 {
+  background: url(../img/bg2.jpg) no-repeat center top;
+  height: 1011px;
+}
+
+.top-con .btns {
+  padding: 525px 318px 0;
+}
+
+.top-con .btns a {
+  text-indent: -9999px;
+  width: 266px;
+  height: 72px;
+}
+
+.top-con .btns .btn-down {
+  background-position: 0 0;
+}
+
+.top-con .btns .btn-web {
+  background-position: -296px 0;
+}
+
+.top-con .next-ico {
+  width: 165px;
+  height: 103px;
+  background-position: -251px -122px;
+  margin: 92px auto 0;
+}
+
+.bg1 .tit-box {
+  padding-top: 50px;
+}
+
+.tit1 {
+  width: 1000px;
+  height: 130px;
+  background-position: -32px -278px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin: 30px 155px 0;
+}
+
+.intro li {
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  padding-left: 70px;
+  text-indent: -70px;
+}
+
+.slide-wrap {
+  width: 1186px;
+  height: 568px;
+  margin: 30px auto 0;
+}
+
+.swiper-container {
+  width: 1000px;
+  height: 568px;
+  margin: 0 auto;
+}
+
+.dot {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.78);
+  padding: 17px 0 17px 28px;
+  position: absolute;
+  top: 403px;
+  left: 0;
+  z-index: 99;
+}
+
+.dot li {
+  float: left;
+  margin-right: 14px;
+  border: 1px solid #555555;
+  cursor: pointer;
+  position: relative;
+  width: 176px;
+  height: 102px;
+}
+
+.dot li .ze {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dot .cur {
+  border: 1px solid #fff;
+}
+
+.dot .cur .ze {
+  display: none;
+}
+
+.slide-wrap .prev1,
+.slide-wrap .next1 {
+  background: url("//game.gtimg.cn/images/codo/cp/a20200107ver/spr.png") no-repeat;
+  width: 56px;
+  height: 121px;
+  margin-top: -65px;
+}
+
+.slide-wrap .prev1 {
+  background-position: -32px -104px;
+}
+
+.slide-wrap .next1 {
+  background-position: -110px -104px;
+}
+
+.bg2 .tit-box {
+  padding-top: 57px;
+}
+
+.tit2 {
+  width: 1000px;
+  height: 132px;
+  background-position: -32px -459px;
+  margin: 0 auto;
+}
+
+.bg2 .roles {
+  width: 100%;
+  position: relative;
+  margin-top: 78px;
+}
+
+.bg2 .roles img {
+  margin-left: 392px;
+}
+
+.roles .txt-box1 {
+  background: url("//game.gtimg.cn/images/codo/cp/a20200107ver/txt-bg1.png") no-repeat;
+  width: 442px;
+  height: 313px;
+  position: absolute;
+  top: 218px;
+  left: 90px;
+}
+
+.roles .list {
+  padding: 35px 120px 0 25px;
+  font-size: 14px;
+  color: #efefef;
+}
+
+.roles .txt-box2 {
+  background: url("//game.gtimg.cn/images/codo/cp/a20200107ver/txt-bg2.png") no-repeat;
+  width: 263px;
+  height: 304px;
+  position: absolute;
+  top: 130px;
+  right: 112px;
+}
+
+.roles .txt-box2 .t1 {
+  font-size: 14px;
+  color: #efefef;
+  font-weight: bold;
+  padding: 16px 0 0 113px;
+}
+
+.roles .txt-box2 .t2 {
+  padding-left: 116px;
+}
+
+.roles .list2 {
+  font-size: 14px;
+  color: #efefef;
+  list-style: circle;
+  padding-left: 133px;
+}
+/*# sourceMappingURL=xiaoyan.css.map */

@@ -1,0 +1,422 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  height: 90px;
+  background-color: #121724;
+  position: relative;
+  z-index: 999;
+}
+
+.first .logo {
+  width: 166px;
+  height: 90px;
+  background: url(../upload/topbar.png);
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  text-indent: -200%;
+  overflow: hidden;
+}
+
+.first .logo a {
+  display: block;
+  height: 100%;
+}
+
+.first .nav {
+  margin-left: 220px;
+}
+
+.first .nav li {
+  float: left;
+  padding-top: 28px;
+  font-size: 16px;
+  width: 170px;
+  text-align: center;
+}
+
+.first .nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.first .nav li a span {
+  font-size: 12px;
+  color: #9d9d9d;
+  display: block;
+  margin-top: 10px;
+}
+
+.first .nav li a:hover {
+  color: #109DDF;
+}
+
+.third {
+  background-image: url(../img/1.jpg);
+  height: 630px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third .wrap {
+  height: 100%;
+}
+
+.third .wrap .look {
+  position: absolute;
+  width: 1000px;
+  height: 315px;
+  left: 50%;
+  margin-left: -500px;
+  top: 185px;
+  text-indent: -200%;
+  overflow: hidden;
+}
+
+.third .wrap .banner {
+  width: 810px;
+  height: 130px;
+  background: url(../upload/spr.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.third .wrap .banner .dt {
+  width: 250px;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  float: left;
+  position: relative;
+}
+
+.third .wrap .banner .dt a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.third .wrap .banner .dt a .xaizai {
+  width: 67px;
+  height: 58px;
+  margin: 20px auto 10px;
+  background: url(../upload/spr.png);
+  background-repeat: no-repeat;
+  background-position: -120px -150px;
+  display: block;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.third .wrap .banner dd {
+  width: 112px;
+  float: left;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.third .wrap .banner dd a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.third .wrap .banner dd a .chongzhi {
+  width: 40px;
+  height: 42px;
+  background: url(../upload/spr.png);
+  background-repeat: no-repeat;
+  background-position: -200px -150px;
+  display: block;
+  margin: 30px auto 20px;
+}
+
+.third .wrap .banner dd a .huodong {
+  width: 40px;
+  height: 42px;
+  background: url(../upload/spr.png);
+  background-repeat: no-repeat;
+  background-position: -240px -150px;
+  display: block;
+  margin: 30px auto 20px;
+}
+
+.third .wrap .banner dd a .zhanshen {
+  width: 43px;
+  height: 42px;
+  background: url(../upload/spr.png);
+  background-position: -280px -150px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 30px auto 20px;
+}
+
+.third .wrap .banner dd a .shipin {
+  width: 43px;
+  height: 42px;
+  background: url(../upload/spr.png);
+  background-position: -330px -150px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 30px auto 20px;
+}
+
+.third .wrap .banner dd a .saishi {
+  width: 43px;
+  height: 42px;
+  background: url(../upload/spr.png);
+  background-position: -380px -150px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 30px auto 20px;
+}
+
+.third .wrap .denglu {
+  background: url(../upload/spr.png);
+  background-repeat: no-repeat;
+  background-position: -810px 0;
+  height: 126px;
+  width: 426px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+}
+
+.third .wrap .denglu .wra {
+  position: relative;
+}
+
+.third .wrap .denglu .wra .avatar {
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #99a2b6;
+  text-decoration: none;
+}
+
+.third .wrap .denglu .wra .avatar img {
+  width: 60px;
+  height: 60px;
+}
+
+.third .wrap .denglu .wra .long {
+  margin-left: 100px;
+  color: #99a2b6;
+  padding-top: 22px;
+}
+
+.third .wrap .denglu .wra .long a {
+  color: #fff;
+}
+
+.third .wrap .denglu .wra .data {
+  margin-left: 20px;
+  padding-top: 8px;
+  overflow: hidden;
+  *zoom: 1;
+  clear: both;
+}
+
+.third .wrap .denglu .wra .data li {
+  width: 95px;
+  height: 50px;
+  text-align: center;
+  margin-right: 5px;
+  float: left;
+  background-color: #3F4A64;
+}
+
+.third .wrap .denglu .wra .data li b {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.third .wrap .denglu .wra .data li span {
+  color: #99a2b6;
+}
+
+.forth {
+  width: 100%;
+  min-width: 1000px;
+  text-align: center;
+}
+
+.forth .main {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.forth .main .crp {
+  padding: 20px 0;
+  text-align: left;
+  line-height: 24px;
+}
+
+.forth .main .crp .none {
+  display: none;
+}
+
+.forth .main .crp .sprit {
+  padding-left: 22px;
+  background-position: 0 -287px;
+  background-image: url(../upload/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.forth .main .art {
+  float: left;
+  width: 870px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.forth .main .art .tab {
+  width: 100%;
+  overflow: hidden;
+}
+
+.forth .main .art .tab .con {
+  width: 900px;
+}
+
+.forth .main .art .tab .con li {
+  float: left;
+  width: 124px;
+  font-weight: bold;
+  color: #696d73;
+  line-height: 46px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.forth .main .art .tab .con li a {
+  text-decoration: none;
+  color: #4d5054;
+  display: block;
+  height: 46px;
+  font-size: 16px;
+}
+
+.forth .main .xinxi {
+  padding: 70px 20px 20px 20px;
+}
+
+.forth .main .xinxi ul li {
+  text-align: left;
+  line-height: 46px;
+  border-bottom: 1px dashed #cecece;
+}
+
+.forth .main .xinxi ul li span {
+  float: right;
+  color: #8f8f8f;
+}
+
+.forth .main .xinxi ul li span a {
+  color: #1c2632;
+}
+
+.foot {
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.foot .gfoot .foote {
+  background: #000;
+  color: #494949;
+}
+
+.foot .gfoot .foot-cen {
+  padding: 15px 20px;
+  margin: 0px auto;
+  position: relative;
+  padding: 5px 0 0 250px;
+  width: 960px;
+  position: relative;
+  text-align: left;
+  color: #a1a1a1;
+}
+
+.foot .gfoot .foot-cen .foot-left {
+  float: left;
+}
+
+.foot .gfoot .foot-cen .foot-left .foot-ieg {
+  text-decoration: none;
+  background-image: url(../upload/foot-dark.png);
+  float: left;
+  width: 180px;
+  height: 35px;
+  text-indent: -999em;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+}
+
+.foot .gfoot .foot-cen .foot-left .logo1 {
+  background-image: url(../upload/img_copyright.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  text-indent: -999em;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+  width: 85px;
+  height: 35px;
+}
+
+.foot .gfoot .foot-cen .ul {
+  float: right;
+  width: 682px;
+  list-style: none;
+  width: 606px !important;
+}
+
+.foot .gfoot .foot-cen .ul li {
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.foot .gfoot .foot-cen .ul li span {
+  font-size: 12px;
+  color: #494949;
+  margin: 0 2px;
+}
+
+.foot .gfoot .foot-cen .ul .map {
+  font-size: 0;
+}
+
+.foot .gfoot .foot-cen .ul .mep {
+  float: right;
+}
+
+.foot .gfoot .foot-cen .ul .mep a {
+  text-decoration: none;
+  color: #a1a1a1 !important;
+}
+
+.foot .gfoot .foot-cen .ul .mop p {
+  font-size: 10px;
+}
+
+.foot .gfoot .foot-cen .ul .mxp a {
+  color: #a1a1a1 !important;
+}
+/*# sourceMappingURL=daoji.css.map */

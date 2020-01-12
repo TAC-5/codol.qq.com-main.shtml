@@ -1,0 +1,28 @@
+.go {
+    position: relative;
+}
+
+.gou {
+    margin: 0 auto;
+}
+
+.goun {
+    font-size: 12px;
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin-right: 20px;
+}
+
+.center {
+    margin-top: 20px;
+}
+
+.lable {
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 3px;
+    margin-right: 5px;
+}

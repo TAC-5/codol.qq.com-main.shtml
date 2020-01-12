@@ -1,0 +1,23 @@
+.wrap {
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pr {
+    position: relative;
+}
+
+.footer {
+    background: #fff;
+    color: #000;
+    font: 12px/20px "微软雅黑", "宋体";
+    min-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.blac {
+    font-size: 12px;
+    color: #a1a1a1 !important;
+}

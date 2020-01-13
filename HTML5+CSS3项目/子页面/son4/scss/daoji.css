@@ -419,4 +419,10 @@ body {
 .foot .gfoot .foot-cen .ul .mxp a {
   color: #a1a1a1 !important;
 }
+
+.text {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=daoji.css.map */
